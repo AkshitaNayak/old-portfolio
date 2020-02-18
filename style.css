@@ -118,3 +118,9 @@ body{
     transition: all 0.2s;
     cursor: pointer;
 }
+
+.copyright{
+    text-align: center;
+}
+
+
