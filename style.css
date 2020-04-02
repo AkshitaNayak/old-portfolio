@@ -1,177 +1,129 @@
-*{
-    scroll-behavior: smooth;
-}
+
 body{
-    background-image: url(images/bg\ \(2\).jpg);
-    background-color: black;
-    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background: url(bg1_img.jpg) no-repeat ;
     background-size: cover;
-    color: white;
-   
+}
+.box{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color:white;
+    font-family: 'Century Gothic',sans-serif;
 }
 
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    
+}
 
-#aboutme{
-    text-align: left;
+.box-img:hover{
+    transform: scale(1.2);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5{
     font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-family: Century gothic;
-    font-weight: 900;
-    color: rgba(255, 251, 251, 0.308);
-}
-#p1{
-    color:ivory;
-}
-#sec1{
-    background-image: url(images/bg3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    letter-spacing: 3px;
+    font-weight: 100;
+
 }
 
-#img1{
-    border-radius: 50% 40px;
-    border:grey solid;
-    margin-left: 150px !important;
-    margin-top: 15px;
-
-    
-    
-}
-#img1:hover{
-    text-decoration: underline black solid;
-    
-}
-.icon{
-    margin-left: 8px;
-    font-size: 50px;
-    padding: 10px;
-  
-    color:black;  
-    
-}
-.icon:hover{
-    color: turquoise ;
-}
-.social-icons{
-    top: 50%;
-    transform: translateY(-50%);
-    position: sticky !important;
-    z-index: 1;
-    width: 80px;
-    
-}
-.social-icons ul{
-    padding: initial;
-}
-.social-icons ul li{
-    height: 40px;
-    width: 40px;
-    list-style-type: none;
-    padding-left: 12px;
-    padding-top: 6px;
-    margin-top: 5px;
-    color: #fff;
-    background-color: #000;
-    
-}
-.social-icons ul li:hover{
-    padding-left: 30px;
-    width: 80px;
-    transition: 0.5s;
-    color: turquoise ;
-}
-
-#icon1{
-    padding-left: 350px;
-}
-.edu{
-    margin-bottom: -200px;
-}
-#name{
-    font-size: 100px;
-    text-align: center;
-}
-
-#img2{
-    margin-top: 50px;
-}
-
-#p1{
-    font-family: century gothic;
-    font-size: 20px;
-}
-#h2{
-    text-align: center;
-    font-weight: 300;
-    font-size:80px;
-    color: rgba(39, 34, 34, 0.308);
-
-    margin-bottom: 30px;
-    
-}
-
-#edu{
+.box p{
     text-align: justify;
+    letter-spacing: 0px;
     font-size: 20px;
-    font-family:century gothic;
+
 }
-#h3,#h4{
+
+.b1{
     text-align: center;
-    font-weight: 600;
-    font-size:80px;
-    margin-bottom: 30px;
-    color: rgba(39, 34, 34, 0.308);
-
+    padding: 25px 25px;
+}
+.button{
+    border-radius: 50px;
+    width: 110px;
+    padding: 10px;
+    border: 1px solid  rgba(93, 90, 247, 0.007); 
+    background-color: rgba(92, 90, 247, 0.966);
+    box-shadow: 0px 0px 20px black;
+    margin-bottom: 10px;
 
 }
-#skill{
-    font-family: century gothic;
-    font-size: 30px;
+.button1{
+    border-radius: 50px;
+    width: 110px;
+    padding: 10px;
+    border: 1px solid  rgba(93, 90, 247, 0.007); 
+    background-color: rgba(163, 42, 113, 0.966);
+    box-shadow: 0px 0px 20px black;
+    margin-bottom: 10px;
     
 }
+.button:hover, .button1:hover, .button0:hover{
+    transform: scale(.9);
+    transition: all 0.2s;
+}
+.t,.r{
+    color: seashell;
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    text-decoration: none;
 
-#cert{
-    font-size: 30px;
 }
-#imgskill{
-     width:600px;
-     height:330px;
-     margin-top: 90px;
-     border: black solid 25px;
-}
-#h5{
+
+.contact{
     text-align: center;
-    font-weight: 600;
-    font-size:80px;
-    margin-bottom: 30px;
-
 }
 
-#contact{
-    text-align: center;
-    background-color:rgba(189, 182, 182, 0.527);
+.button0{
+    border-radius: 50px;
+    width: 110px;
+    padding: 10px;
+    border: 1px solid  rgba(93, 90, 247, 0.007); 
+    background-color: rgba(163, 42, 113, 0.966);
+    box-shadow: 0px 0px 20px black;
+    margin-bottom: 10px;
+    margin-top: 20px;
 
-}
-
-#btn1{
-    color:yellow;
-    border:blanchedalmond;
-    
-}
-
-
-#footer{
-    background-color: rgba(175, 96, 96, 0.4);
-}
-#icon2,#icon3{
-    text-align: center;
     
     
 }
+.resume{
+    text-align: right;
+    padding:25px;
+}
 
+.Follow{
+    text-decoration: none;
+    font-family: Century Gothic;
+    color:white;
+}
 
+.name:hover{
+    transform: scale(1.2);
+    transition: all 0.2s;
+    cursor: pointer;
+}
 
+.copyright{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    
 
-
+}
 
